@@ -13,6 +13,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="create_wishlist.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,7 +21,51 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <script src="" async defer></script>
+        <!--based on: https://www.codeproject.com/Questions/1185082/How-to-create-input-field-with-a-button-click-->
+    <div class="h1onskeliste">
+    <h1>Min <br>ønskeliste</h1>
+    </div>
+        <input id="onske1" class="oenske" type="text" placeholder="1. ønske">
+        <input id="onske2"class="oenske" type="text" placeholder="2. ønske.">
+        <input id="onske3"class="oenske" type="text" placeholder="3. ønske">
+        <input id="onske4"class="oenske" type="text" placeholder="4. ønske">
+        <input id="onske5"class="oenske" type="text" placeholder="5. ønske"> 
+    <div id="newElementId"></div>
+        <script type="text/JavaScript">
+            var num = 6;
+            var ID = "1";
+        function createNewElement() {
+            // First create a DIV element.
+            var txtNewInputBox = document.createElement('div');
+        
+            // Then add the content (a new input box) of the element.
+            txtNewInputBox.id = txtNewInputBox.name = ID;
+            txtNewInputBox.innerHTML = "<input class='oenske' type='text'>";
+            
+            // Finally put it where it is supposed to appear.
+            document.getElementById("newElementId").appendChild(txtNewInputBox);
+            document.getElementById(txtNewInputBox.id).placeholder = num;
+            console.log(num);
+            num++;
+            console.log(txtNewInputBox.id);
+            ID++;    
+        }
+        </script>
+        <!--<div id="dynamicCheck">
+                <input type="button" value="Create Element" onclick="createNewElement();"/>
+                placeholder='7. ønske'
+                </div>-->
+    <div id="dynamicCheck">
+        <input type="text" value="Tilføj ny ønske" onclick="createNewElement();"/>
+    </div>
+    <form action="wishlist.html">
+      <button class="godkend" onclick="setOnske()">Godkend</button>
+    </form>
+    <div>
+
+    </div>
+<script src="async defer"></script>
+<script src="script.js"></script>
 </body>
 
 </html>

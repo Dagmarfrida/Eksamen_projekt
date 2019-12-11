@@ -1,3 +1,4 @@
+                /*POP UP*/
 $(function() {
     'use strict';
   
@@ -44,4 +45,30 @@ $(function() {
   
   })
   
-  Resources
+ 
+
+/* MOVING WISH LIST*/
+function setOnske(){
+  var getOnske1 = document.getElementById("onske1").value;
+  localStorage.setItem("box1", getOnske1);
+  
+  var getOnske2 = document.getElementById("onske2").value;
+  localStorage.setItem("box2", getOnske2);
+
+  var getOnske3 = document.getElementById("onske3").value;
+  localStorage.setItem("box3", getOnske3);
+
+  var getOnske4 = document.getElementById("onske4").value;
+  localStorage.setItem("box4", getOnske4);
+
+  var getOnske5 = document.getElementById("onske5").value;
+  localStorage.setItem("box5", getOnske5); 
+}
+
+function getOnske(){
+  document.getElementById("catchOnske1").value = localStorage.getItem("box1");
+  document.getElementById("catchOnske2").value = localStorage.getItem("box2");
+  document.getElementById("catchOnske3").value = localStorage.getItem("box3");
+  document.getElementById("catchOnske4").value = localStorage.getItem("box4");
+  document.getElementById("catchOnske5").value = localStorage.getItem("box5");
+}
