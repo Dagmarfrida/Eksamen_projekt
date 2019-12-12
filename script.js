@@ -72,3 +72,16 @@ function getOnske(){
   document.getElementById("catchOnske4").value = localStorage.getItem("box4");
   document.getElementById("catchOnske5").value = localStorage.getItem("box5");
 }
+
+/* NAFN PÅ TO STEDER*/
+
+
+//get the input elements from HTML DOM
+var textOne = document.getElementById("textOne");
+var textTwo = document.getElementById("textTwo");
+//Get the value of textOne textbox input
+var textOneValue = textOne.value;
+ 
+var textTwoValue = textOneValue;
+//Assign the value of textOne textbox to textTwo textbox
+textTwo.value = textTwoValue;
