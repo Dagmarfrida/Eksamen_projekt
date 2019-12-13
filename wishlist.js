@@ -26,28 +26,29 @@ function addToWishlistClicked(event) {
 }
 //Tilføjer det klikkede til ønskelisten, men skal på anden side
 function addToyToWishlist(iteminfo, imgsrc) {
-    var wishListRow = document.createElement('wishitem')
-    var wishRowContent = `      
+    var answer;
+    var answer = confirm("Vil du tilføje den til din ønskeliste?");
+    if (answer == true) {
+        var wishListRow = document.createElement('wishitem')
+        var wishRowContent = `      
     <element class="wishitem">
         <img class="toyimage" src="${imgsrc}" alt="1">
         <div class="toyinfo">${iteminfo}</div>
     </element>`
-    wishListRow.innerHTML = wishRowContent
-        //Her holder vi styr på antallet af ønsker - tom string bliver til nul
-    var wishcount = window.localStorage.getItem('Wishcount');
-    Number(wishcount)
-    wishcount++;
-    String(wishcount)
+        wishListRow.innerHTML = wishRowContent
+            //Her holder vi styr på antallet af ønsker - tom string bliver til nul
+        var wishcount = window.localStorage.getItem('Wishcount');
+        Number(wishcount)
+        wishcount++;
+        String(wishcount)
 
-    window.localStorage.setItem('Wishcount', wishcount);
-    addWishToLocalStorage(wishcount, wishListRow.innerHTML)
-
-    var answer;
-    var answer = confirm("Vil du tilføje den til din ønskeliste?");
-    if (answer == true) {
         window.localStorage.setItem('Wishcount', wishcount);
         addWishToLocalStorage(wishcount, wishListRow.innerHTML)
-    } else {
+
+
+        window.localStorage.setItem('Wishcount', wishcount);
+        addWishToLocalStorage(wishcount, wishListRow.innerHTML)
+    } else { //hænger sammen med confirm dialog
 
     }
 
