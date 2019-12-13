@@ -38,8 +38,22 @@ function addToyToWishlist(iteminfo, imgsrc) {
     Number(wishcount)
     wishcount++;
     String(wishcount)
+
     window.localStorage.setItem('Wishcount', wishcount);
     addWishToLocalStorage(wishcount, wishListRow.innerHTML)
+
+    var answer;
+    var answer = confirm("Vil du tilføje den til din ønskeliste?");
+    if (answer == true) {
+        window.localStorage.setItem('Wishcount', wishcount);
+        addWishToLocalStorage(wishcount, wishListRow.innerHTML)
+    } else {
+
+    }
+
+
+
+
 }
 //Her gemmer vi ønsket i hukommelsen så vi kan hente det ind når ønskeliste siden åbnes
 function addWishToLocalStorage(key, HTMLstring) {
