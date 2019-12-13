@@ -1,0 +1,87 @@
+/*bygget oven på denne kode https://codepen.io/Gthibaud/pen/MqpmXE*/
+html {
+    font-size: 20px;
+  }
+  body {
+    color:black;
+    font-family: 'PT Sans Caption', sans-serif;
+    background-color: #c20016;
+  }
+  
+  .exit_btn {
+    background-color: #C20016;
+    color: white;
+    border-radius: 50%;
+    display: block;
+    float: right;
+    clear: both;
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: 2px solid #FDFE00;
+  }
+  
+  .popup_container {
+    border: 3px solid #FDFE00;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+    
+  }
+  .modal {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+   
+  }
+  .message {
+    font-size:24px;
+    margin-bottom: 1.6rem;
+    margin-top: 20px;
+    text-align: justify;
+   /* margin-left: 10px;
+    margin-right: 10px;*/
+
+}
+
+p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+  .btn { 
+    background: #c20016;
+    color: white;
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #FDFE00;
+    border-radius: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    /*box-shadow: 2px 8px 0 #cccca4;*/
+  }
+
+ 
+  .btn:hover {
+    box-shadow: 0.4rem 0.4rem 0 #cccca4;
+    transform: translate(-0.4rem, -0.4rem);
+  }
+  
+  .btn:active {
+    box-shadow: 0 0 0 black;
+    transform: translate(0, 0);
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: -webkit-center;
+
+
+  }
+  
