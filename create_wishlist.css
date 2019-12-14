@@ -3,18 +3,6 @@ body {
     margin: 0px;
 }     
 
-* {
-outline: none;
-}
-
-button::-moz-focus-inner,
-input[type="reset"]::-moz-focus-inner,
-input[type="button"]::-moz-focus-inner,
-input[type="submit"]::-moz-focus-inner,
-input[type="file"] > input[type="button"]::-moz-focus-inner {
-border: none;
-}
-
 .h1onskeliste {
     font-family: 'Amatic SC', cursive;
     margin-left: 0;
