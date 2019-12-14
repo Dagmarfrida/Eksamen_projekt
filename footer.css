@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.forsidefooter {
+    width: 100%;
+    height: 130px;
+    background: #C20016;
+    background-size: cover;
+    box-shadow: 0px 98px 15px -72px white inset;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+  
+}
+
+.navcontainer {
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-evenly;
+    height: 120px;
+  
+    }
+
+form {
+    margin-top: 25px;
+    width: 100px;
+    height: 120px;
+    text-align: center;
+
+}
+
+button {
+    background-color: unset;
+    border: unset;
+    height: 60px;
+    margin: 0 auto;
+}
+
+form img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.homediv p {
+    color: #410404;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 1px;
+    text-transform: uppercase;
+}
+
+p {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 1px;
+    text-transform: uppercase;
+}
+     /*hover effects på footer icons https://www.fabriziovanmarciano.com/button-styles/
+
+
+.footerbuttons{
+    
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    }
+.footerbuttons:hover{
+    background: #bddd09;
+    border-color: #ffffff !important;
+    transition: all 0.4s ease 0s;
+    }*/

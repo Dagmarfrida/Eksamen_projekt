@@ -10,15 +10,14 @@ body {
 
 }
       
-      form input {
-
-        border: none;
-        background: transparent;
-        outline: none;
-         text-align: end;
-         font-size: 30px;
-         font-weight: bold;
-      }
+form input {
+    border: none;
+    background: transparent;
+    outline: none;
+    text-align: end;
+    font-size: 30px;
+    font-weight: bold;
+}
       
       
 .wishlist_buttons {
@@ -58,11 +57,12 @@ body {
     text-transform: uppercase;
     font-size: 30px;*/
   }
-  .printbutton {
-      widows: 30px;
+  .printbutton, .emailbutton{
+      width: 30px;
       height: 30px;
       color: white;
   }
+ 
   .edit {
       float: right;
       margin-top: 20px;
