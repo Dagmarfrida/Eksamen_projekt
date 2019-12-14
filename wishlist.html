@@ -15,16 +15,16 @@
     <link rel="stylesheet" href="wishlist.css">
 </head>
 
-<body onload="getOnske()">
+<body onload="getName()">
   <form> 
-  <h1 class="h1wishlist"><input type="text" id="textTwo">s ønskeliste</h1></form> 
-  
-  <!-- til at faa barnets navn til at komme op her
-    <form> 
-  <span id="navnlist"></span>s ønskeliste</form> 
+    <h1 class="h1wishlist"> <input class="h1wishlist" type="text" id="textTwo"></input>s ønskeliste </h1>
+  </form> 
   <script>
-  document.getElementById ("navnlist").innerHTML=localStorage.getItem ("textvalue");
-  </script>-->
+    function getName(){
+      document.getElementById("textTwo").value = localStorage.getItem("textValue");
+      console.log(localStorage.getItem("textValue"));
+    } 
+  </script>
 
 
     <!--[if lt IE 7]>
@@ -54,7 +54,6 @@
       
   </div>
   <a class="edit" href="create_wishlist.html">Edit/Delete</a>
-   <script src="script.js"></script>
 
 </body>
 

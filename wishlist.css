@@ -3,13 +3,24 @@ body {
 }
 .h1wishlist {
     background-color: #C20016;
-    padding-left: 30px;
     color: white;
     font-family: 'Amatic SC', cursive;
     padding-top: 10px;
     padding-bottom: 10px;
 
 }
+      
+      form input {
+
+        border: none;
+        background: transparent;
+        outline: none;
+         text-align: end;
+         font-size: 30px;
+         font-weight: bold;
+      }
+      
+      
 .wishlist_buttons {
     display: flex;
     justify-content: space-around;

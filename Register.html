@@ -42,15 +42,20 @@
         <h1>Tilmeld og vær med</h1>
         <form action="wishlist.html">
             <input class="Username" type="text" placeholder="Fornavn" id="textName">
-           <!-- submit button saa kommer navent paa onskelistesiden 
-               <input type="submit" value="Click" onclick="passvalues();">-->
     </form>
+    <script>
+      function passvalues() {
+        var name = document.getElementById("textName").value;
+        localStorage.setItem("textValue", name);
+        console.log(localStorage.getItem("textValue"));
+      }
+    </script>
     <form> 
             <input class="Email" type="text" placeholder="Email/telefon">
             <input class="Alder" type="text" placeholder="Alder">
 
-            <input class="Adgangskode" id="Password" type="password" placeholder="Adgangskode">
-            <input class="Adgangskode" id="Password_bekræft"type="password" placeholder="Bekræft adgangskode">  
+            <input class="Adgangskode" id="Password" type="password" placeholder="Adgangskode" maxlength="15">
+            <input class="Adgangskode" id="Password_bekræft"type="password" placeholder="Bekræft adgangskode" maxlength="15">  
             </form>
     </div>
         <form action="create_wishlist.html">
@@ -61,7 +66,7 @@
            <label class="pswcontainer">Husk mig<input type="checkbox" id="password"><span class="checkmark"></span></label>
            
             <button class="klar_button" 
-            onclick="setOnske()">Jeg er klar</button>
+            onclick="passvalues()">Jeg er klar</button>
         </form>
 
       
@@ -97,5 +102,4 @@ function twoInOne(){
 
    
 </body>
-<script src="script.js"></script>
 </html>
