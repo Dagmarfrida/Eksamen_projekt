@@ -1,6 +1,9 @@
 /*TEXT FORM BOXES*/
 body {
     margin: 0px;
+     outline: 0;
+     outline-color: transparent;
+     outline-style: none
 }          
 .h1onskeliste {
     font-family: 'Amatic SC', cursive;
