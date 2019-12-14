@@ -1,7 +1,6 @@
 /*TEXT FORM BOXES*/
 body {
     margin: 0px;
-    outline: none;
 }          
 .h1onskeliste {
     font-family: 'Amatic SC', cursive;
@@ -51,6 +50,7 @@ body {
     text-transform: uppercase;
     font-size: 30px;
     margin-top: 40px;
+    outline: none; 
   }
   /* TILFØJ TAKKE*/
 
