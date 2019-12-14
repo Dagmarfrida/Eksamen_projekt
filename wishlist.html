@@ -11,20 +11,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1"><link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="wishlist.css">
 </head>
 
-<body onload="getOnske()">
+<body onload="getName()">
   <form> 
-  <h1 class="h1wishlist"><input type="text" id="textTwo">s ønskeliste</h1></form> 
-  
-  <!-- til at faa barnets navn til at komme op her
-    <form> 
-  <span id="navnlist"></span>s ønskeliste</form> 
+    <h1 class="h1wishlist"> <input class="h1wishlist" type="text" id="textTwo"></input>s ønskeliste </h1>
+  </form> 
   <script>
-  document.getElementById ("navnlist").innerHTML=localStorage.getItem ("textvalue");
-  </script>-->
+    function getName(){
+      document.getElementById("textTwo").value = localStorage.getItem("textValue");
+      console.log(localStorage.getItem("textValue"));
+    } 
+  </script>
 
 
     <!--[if lt IE 7]>
@@ -43,7 +45,6 @@
 
         <!--<div>Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
         <form action="wishlist.html">
-            <!--<button><img src="facebook.png" alt=""> Facebook</button>-->
         <button><img src="photos/printer_white.png" alt="print icon" class="printbutton" onclick="window.print();return false;"></button>
       </form> 
 
@@ -54,7 +55,6 @@
       
   </div>
   <a class="edit" href="create_wishlist.html">Edit/Delete</a>
-   <script src="script.js"></script>
 
 </body>
 

@@ -52,6 +52,7 @@ p {
     margin-bottom: 10px;
 }
   .btn { 
+    outline: none;
     background: #c20016;
     color: white;
     width: 90%;
