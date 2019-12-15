@@ -8,13 +8,12 @@ body {
 
 .h1onskeliste {
     font-family: 'Amatic SC', cursive;
-    font-color: black;
     margin-left: 0;
    
     padding-left: 30px;
     padding-bottom: 5px;
     padding-top: 5px;
-    color: rgb(255, 255, 255);
+    color: black;
     margin-bottom: 20px;
     margin-top: 20px;
   
