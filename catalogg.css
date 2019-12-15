@@ -30,7 +30,7 @@ h2 {
   padding: 20px;
   font-family: 'Amatic SC', cursive;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   
  
 }
@@ -48,11 +48,6 @@ h2 {
   object-fit: scale-down;
 }
 
-@media only screen and (max-width: 600px)
- 
-  .toyitem {
-    font-size: 30px;
-    
-}
+
 
 
