@@ -1,7 +1,10 @@
 body {
   margin: 0px;
+<<<<<<< Updated upstream
+=======
   font-family: 'Amatic SC', cursive;
   outline: none;
+>>>>>>> Stashed changes
 }
 <<<<<<< Updated upstream
 /* POP UP*/
@@ -96,9 +99,12 @@ body {
     }
   
 
+<<<<<<< Updated upstream
             
 =======
+=======
 /*----------------HEADER--------------*/
+>>>>>>> Stashed changes
 
 
 header {
@@ -450,81 +456,9 @@ margin-right: auto;
 text-align: -webkit-center;
 }
 
-
-/*----------------WISHLIST SIDE---------------*/
-
-
-.h1wishlist {
-  background-color: #C20016;
-  color: white;
-  font-family: 'Amatic SC', cursive;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-    
-form input {
-  border: none;
-  background: transparent;
-  outline: none;
-  text-align: end;
-  font-size: 30px;
-  font-weight: bold;
-}
-     
-.wishlist_buttons {
-  display: flex;
-  justify-content: space-around;
-  background-color: #C20016;
-  padding: 10px;   
-}
-
-.wishlist_buttons button{
-  background-color: #C20016;
-  color: white;
-  border: none;
-}
-
-.oenske{
-  display: flex;
-  flex-flow: column;
-  z-index: 0;
-  padding: 6px;
-  margin: 0;
-  font: inherit;
-  font-size: 22px;
-  line-height: 32px;
-  border: none;
- /* border: solid 3px #C20016;
-  box-shadow: 0 0 5px #ccc inset;
-  outline: none;
-  width: 80%;
-  transition: all .2s ease-in-out;
-  border-radius: 3px;*/
-  text-align: left;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Open Sans', sans-serif;
- /* font-family: 'Amatic SC', cursive;
-  text-transform: uppercase;
-  font-size: 30px;*/
-}
-.printbutton, .emailbutton{
-  width: 30px;
-  height: 30px;
-  color: white;
-}
-
-.edit {
-  float: right;
-  margin-top: 20px;
-  margin-right: 15px;
-  margin-bottom: 130px;
-}
 /*------------FOOTER------------------*/
 
 
-.loginfooter, .onskelistefooter {
 /*.loginfooter, .onskelistefooter, .katalogfooter*/ footer {
   width: 100%;
   height: 120px;
@@ -595,4 +529,9 @@ footer form img {
   border-color: #ffffff !important;
   transition: all 0.4s ease 0s;
   }*/
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+
+
 >>>>>>> Stashed changes
