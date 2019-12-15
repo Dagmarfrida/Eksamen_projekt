@@ -22,32 +22,36 @@ function addToWishlistClicked(event) {
     var toyItem = itemimage.parentElement
     var iteminfo = toyItem.getElementsByClassName('toyinfo')[0].innerText
     var imgsrc = toyItem.getElementsByClassName('toyimage')[0].src
-    addToyToWishlist(iteminfo, imgsrc)
+    var imgalt = toyItem.getElementsByClassName('toyimage')[0].alt
+    addToyToWishlist(iteminfo, imgsrc, imgalt)
 }
 //Tilføjer det klikkede til ønskelisten, men skal på anden side
-function addToyToWishlist(iteminfo, imgsrc) {
+function addToyToWishlist(iteminfo, imgsrc, imgalt) {
     var answer;
     var answer = confirm("Vil du tilføje den til din ønskeliste?");
     if (answer == true) {
         var wishListRow = document.createElement('wishitem')
+
+        //Her holder vi styr på antallet af ønsker - tom string bliver til nul
+        var wishcount = window.localStorage.getItem('Wishcount');
+        Number(wishcount);
+        wishcount++;
+
         var wishRowContent = `      
     <element class="wishitem">
-        <img class="toyimage" src="${imgsrc}" alt="1">
-        <div class="toyinfo">${iteminfo}</div>
+        <img class="toyimage" src="${imgsrc}" alt="${imgalt}">
+        <p class="toyinfo"> "${iteminfo}"</p>
+        <button class="removebtn" id="${wishcount}">Fjern</button>
     </element>`
         wishListRow.innerHTML = wishRowContent
-            //Her holder vi styr på antallet af ønsker - tom string bliver til nul
-        var wishcount = window.localStorage.getItem('Wishcount');
-        Number(wishcount)
-        wishcount++;
-        String(wishcount)
-
+        String(wishcount);
         window.localStorage.setItem('Wishcount', wishcount);
         addWishToLocalStorage(wishcount, wishListRow.innerHTML)
 
 
         window.localStorage.setItem('Wishcount', wishcount);
         addWishToLocalStorage(wishcount, wishListRow.innerHTML)
+
     } else { //hænger sammen med confirm dialog
 
     }

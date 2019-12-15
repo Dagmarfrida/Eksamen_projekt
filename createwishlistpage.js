@@ -42,15 +42,10 @@
 
             var wishListRow = document.createElement('div')
             var wish = window.localStorage.getItem(i + 1);
-            var wishItems = document.getElementsByClassName('wishitem')[0]
+            var wishItems = document.getElementsByClassName('wishitems')[0]
             var wishRowContent = wish
             wishListRow.innerHTML = wishRowContent
             wishItems.append(wishListRow)
-            var button = document.createElement("button");
-            button.className = "removebtn"
-            button.innerHTML = "Fjern";
-            button.id = (i + 1); //skal bruges som nøgle når vi fjerner et element, således ar der kan holdes styr på localstorage
-            wishListRow.appendChild(button);
         }
 
     }
