@@ -4,9 +4,14 @@ body {
   margin: 0px;
 }
 
-.toyitem {
+.items {
   display: grid;
   grid-template-columns: 45% 45%;
   grid-gap: 10px;
+}
+
+.toyimage {
+  widht: auto; 
+    height: 100px;
 }
 
