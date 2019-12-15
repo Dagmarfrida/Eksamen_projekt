@@ -1,10 +1,14 @@
 body {
   margin: 0px;
   font-family: 'Amatic SC', cursive;
+  outline: none;
+
 }
 
 
-/*---------------REGISTER SIDE_____________________*/
+/*----------------HEADER--------------*/
+
+
 
 header {
   width: 100%;
@@ -18,7 +22,7 @@ header {
   width: 190px;
   height: 190px;
 }  
-
+/*---------------REGISTER SIDE_____________________*/
 h1 {
   text-align: center;
   z-index: 100;
@@ -158,6 +162,115 @@ h1 {
   color: #565f79;
 }
 
+/*---------------- CATALOG SIDE ---------------*/
+/*@import url("header.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');*/
+
+
+.catalogbody h2 {
+    font-family: 'Amatic SC', cursive;
+    padding: 20px;
+    text-align: center;
+    font-size: 65px;
+}
+
+.Items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    justify-items: center;
+}
+
+.toyitem {
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.toyimage {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+
+
+/*----------------WISHLIST SIDE---------------*/
+
+
+.h1wishlist {
+  background-color: #C20016;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+    
+form input {
+  border: none;
+  background: transparent;
+  outline: none;
+  text-align: end;
+  font-size: 30px;
+  font-weight: bold;
+}
+     
+.wishlist_buttons {
+  display: flex;
+  justify-content: space-around;
+  background-color: #C20016;
+  padding: 10px;   
+}
+
+.wishlist_buttons button{
+  background-color: #C20016;
+  color: white;
+  border: none;
+}
+
+.oenske{
+  display: flex;
+  flex-flow: column;
+  z-index: 0;
+  padding: 6px;
+  margin: 0;
+  font: inherit;
+  font-size: 22px;
+  line-height: 32px;
+  border: none;
+ /* border: solid 3px #C20016;
+  box-shadow: 0 0 5px #ccc inset;
+  outline: none;
+  width: 80%;
+  transition: all .2s ease-in-out;
+  border-radius: 3px;*/
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans', sans-serif;
+ /* font-family: 'Amatic SC', cursive;
+  text-transform: uppercase;
+  font-size: 30px;*/
+}
+.printbutton, .emailbutton{
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+.edit {
+  float: right;
+  margin-top: 20px;
+  margin-right: 15px;
+  margin-bottom: 130px;
+}
+
 
 
 
@@ -247,81 +360,10 @@ margin-right: auto;
 text-align: -webkit-center;
 }
 
-
-/*----------------WISHLIST SIDE---------------*/
-
-
-.h1wishlist {
-  background-color: #C20016;
-  color: white;
-  font-family: 'Amatic SC', cursive;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-    
-form input {
-  border: none;
-  background: transparent;
-  outline: none;
-  text-align: end;
-  font-size: 30px;
-  font-weight: bold;
-}
-     
-.wishlist_buttons {
-  display: flex;
-  justify-content: space-around;
-  background-color: #C20016;
-  padding: 10px;   
-}
-
-.wishlist_buttons button{
-  background-color: #C20016;
-  color: white;
-  border: none;
-}
-
-.oenske{
-  display: flex;
-  flex-flow: column;
-  z-index: 0;
-  padding: 6px;
-  margin: 0;
-  font: inherit;
-  font-size: 22px;
-  line-height: 32px;
-  border: none;
- /* border: solid 3px #C20016;
-  box-shadow: 0 0 5px #ccc inset;
-  outline: none;
-  width: 80%;
-  transition: all .2s ease-in-out;
-  border-radius: 3px;*/
-  text-align: left;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Open Sans', sans-serif;
- /* font-family: 'Amatic SC', cursive;
-  text-transform: uppercase;
-  font-size: 30px;*/
-}
-.printbutton, .emailbutton{
-  width: 30px;
-  height: 30px;
-  color: white;
-}
-
-.edit {
-  float: right;
-  margin-top: 20px;
-  margin-right: 15px;
-  margin-bottom: 130px;
-}
 /*------------FOOTER------------------*/
 
 
-.loginfooter, .onskelistefooter {
+/*.loginfooter, .onskelistefooter, .katalogfooter*/ footer {
   width: 100%;
   height: 120px;
   background: #C20016;
@@ -393,4 +435,5 @@ footer form img {
   transition: all 0.4s ease 0s;
 
   }*/
+
 
