@@ -1,4 +1,5 @@
 @import url("header.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body {
   margin: 0px;
@@ -11,7 +12,7 @@ body {
   grid-column-gap: 2px;
   grid-row-gap: 2px;
   justify-items: center;
-  align-content: space-evenly;
+  
 
 }
 
@@ -19,20 +20,20 @@ body {
   width: 45%;
   height: 45%;
   padding: 20px;
-  
+  font-family: 'Montserrat', sans-serif;
  
 }
 
 
 .toyimage1 {
    width:100%;
-  height: 200%;
+  height: 180%;
   object-fit: scale-down;
 }
 
 .toyimage2 {
    width:100%;
-  height: 100%;
+  height: 180%;
   object-fit: scale-down;
 }
 
