@@ -1,9 +1,11 @@
+@import url("header.css");
+
 body {
     margin: 0;
 }
 .h1wishlist {
-    background-color: #C20016;
-    color: white;
+    color: black;
+    text-align: center;
     font-family: 'Amatic SC', cursive;
     padding-top: 10px;
     padding-bottom: 10px;
