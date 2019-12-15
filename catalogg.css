@@ -1,5 +1,9 @@
 @import url("header.css");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0px;
 }
@@ -12,6 +16,8 @@ body {
 
 .toyimage {
   widht: auto; 
-    height: 100px;
+    height: 30%;
 }
+
+
 
