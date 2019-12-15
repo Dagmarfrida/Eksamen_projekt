@@ -1,13 +1,13 @@
 body {
     margin: 0;
 }
+
 .h1wishlist {
     background-color: #C20016;
     color: white;
     font-family: 'Amatic SC', cursive;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
       
 form input {
@@ -18,20 +18,20 @@ form input {
     font-size: 30px;
     font-weight: bold;
 }
-      
-      
+       
 .wishlist_buttons {
     display: flex;
     justify-content: space-around;
     background-color: #C20016;
-    padding: 10px;
-    
+    padding: 10px;   
 }
+
 .wishlist_buttons button{
     background-color: #C20016;
     color: white;
     border: none;
 }
+
 .oenske{
     display: flex;
     flex-flow: column;
@@ -57,14 +57,14 @@ form input {
     text-transform: uppercase;
     font-size: 30px;*/
   }
-  .printbutton, .emailbutton{
-      width: 30px;
-      height: 30px;
-      color: white;
-  }
- 
-  .edit {
-      float: right;
-      margin-top: 20px;
-      margin-right: 15px;
-  }
+.printbutton, .emailbutton{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+.edit {
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+}
