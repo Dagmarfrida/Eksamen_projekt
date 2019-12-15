@@ -1,3 +1,12 @@
 @import url("header.css");
 
+body {
+  margin: 0px;
+}
+
+.toyitem {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-gap: 10px;
+}
 
