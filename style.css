@@ -1,101 +1,8 @@
 body {
   margin: 0px;
+  font-family: 'Amatic SC', cursive;
 }
-<<<<<<< Updated upstream
-/* POP UP*/
-#wrapper {
-  font-family: Lato;
-  font-size: 1.5rem;
-  text-align: center;
-  box-sizing: border-box;
-  color: #333;
-}
-  #dialog {
-    border: solid 1px #ccc;
-    margin: 10px auto;
-    padding: 20px 30px;
-    display: inline-block;
-    box-shadow: 0 0 4px #ccc;
-    background-color: rgb(211, 40, 40);
-    overflow: hidden;
-    position: relative;
-    max-width: 450px;
-}
-    h3 {
-      margin: 0 0 10px;
-      padding: 0;
-      line-height: 1.25;
-    }
-    
-    span {
-      font-size: 90%;
-    }
-    
-    #form {
-      max-width: 320px;
-      margin: 20px auto 0;
-    }
-      input {
-        margin: 0 5px;
-        text-align: center;
-        line-height: 60px;
-        font-size: 40px;
-        border: solid 1px #ccc;
-        box-shadow: 0 0 5px #ccc inset;
-        outline: none;
-        width: 20%;
-        transition: all .2s ease-in-out;
-        border-radius: 3px;
-    }
-        input :focus {
-          border-color: rgb(255, 255, 255) ;
-          box-shadow: 0 0 5px rgb(255, 255, 255) inset;
-        }
-        
-        input ::selection {
-          background: transparent;
-        }
-      
-      
-      button {
-        margin:  30px 0 50px;
-        width: 60%;
-        padding: 10px;
-        background-color: rgb(255, 255, 255) 5FC6;
-        border: none;
-        text-transform: uppercase;
-        border-radius: 3px;
-        color: #333;
-      }
-    
-    
-    button.close {
-        border: solid 2px;
-        border-radius: 3px;
-        line-height: 19px;
-        font-size: 120%;
-        width: 22px;
-        position: absolute;
-        right: 5px;
-        top: 5px;
-        padding: 1px;
-      }           
-    
-    
-    div {
-      position: relative;
-      z-index: 1;
-    }
-    
-    img {
-      position: absolute;
-      bottom: -70px;
-      right: -63px;
-    }
-  
 
-            
-=======
 
 /*---------------REGISTER SIDE_____________________*/
 
@@ -250,6 +157,7 @@ h1 {
 ::-webkit-input-placeholder {
   color: #565f79;
 }
+
 
 
 
@@ -432,6 +340,7 @@ form input {
   height: 120px;
 }
 
+
 footer form {
   margin-top: 25px;
   width: 100px;
@@ -482,5 +391,6 @@ footer form img {
   background: #bddd09;
   border-color: #ffffff !important;
   transition: all 0.4s ease 0s;
+
   }*/
->>>>>>> Stashed changes
+
