@@ -39,7 +39,6 @@
         Number(wishcount);
         //Her løber vi igennem de ønsker der ligger i localstorage og skriver dem til ønskelisten
         for (var i = 0; i < wishcount; i++) {
-
             var wishListRow = document.createElement('div')
             var wish = window.localStorage.getItem(i + 1);
             var wishItems = document.getElementsByClassName('wishitem')[0]

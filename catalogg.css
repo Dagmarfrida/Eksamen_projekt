@@ -1,53 +1,45 @@
 @import url("header.css");
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
 body {
-  margin: 0px;
+    margin: 0px;
 }
 
 h2 {
-  font-family: 'Amatic SC', cursive;
-  padding: 20px;
-   text-align: center; 
-  font-size: 65px;
+    font-family: 'Amatic SC', cursive;
+    padding: 20px;
+    text-align: center;
+    font-size: 65px;
 }
 
 .Items {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 2px;
-  grid-row-gap: 2px;
-  justify-items: center;
-
-  
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    justify-items: center;
 }
 
 .toyitem {
-  width: 80%;
-  height: 80%;
-  padding: 20px;
-  font-family: 'Amatic SC', cursive;
-  text-align: center;
-  font-size: 30px;
-  
- 
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.toyimage {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
 }
 
 
-.toyimage1 {
-   width:100%;
-  height: 100%;
-  object-fit: scale-down;
-}
-
+/*
 .toyimage2 {
    width:100%;
   height: 100%;
   object-fit: scale-down;
 }
-
-
-
-
+*/

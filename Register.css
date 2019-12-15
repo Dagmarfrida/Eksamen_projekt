@@ -64,29 +64,6 @@ h1 {
     margin-top: 20px;
   }
 
-  /*#show_password {
-      border: solid 4px #C20016;
-      height: 50px;
-      width: 50px;
-      background-color: #C20016;
-      display: block;
-      
-      -webkit-appearance: checkbox;
-      outline: 0;
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: contain;
-  }
-  
-  #show_password:not(:checked) {
-      background-image: url(unchecked.svg);
-  }
-  
-  #show_password:checked {
-      background-image: url(checked.svg);
-  }
-  
-
         /* JEG ER KLAR TAKKE*/
 
   #dynamicCheck {
@@ -157,9 +134,6 @@ h1 {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
-
-
-
 
   #Password input[type = "password"],#Password input[type = "text"] {
     display: block;
