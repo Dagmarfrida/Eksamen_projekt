@@ -26,8 +26,8 @@ body {
 
 .toyimage1 {
    width:100%;
-  height: 100%;
-  object-fit: fill;
+  height: 200%;
+  object-fit: scale-down;
 }
 
 .toyimage2 {
