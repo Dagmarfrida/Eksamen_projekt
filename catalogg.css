@@ -8,14 +8,14 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
 
 }
 
 .toyitem {
-  width:auto;
-  height: 40%;
+  width: 30px;
+  height: 40px;
   object-fit: scale-down;
 }
 
