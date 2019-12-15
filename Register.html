@@ -13,36 +13,26 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/3ef8f87cac.js" crossorigin="anonymous"></script>
-
-<!-- Denne script er til at flytte barnets navn til onskelistesiden
-    
-    <script> function passvalues ()
-{
-  var firstname=document.getElementById("textName").value;
-  localStorage.setItem ("textvalue", firstname);
-  return false;  
-}
-</script>-->
-
-
-    <link rel="stylesheet" href="Register.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur'" rel="stylesheet">
 
 </head>
-<header>
-        <div>
-            <img class="br_logo" src="photos/BR_cornerM.png" alt="Fætter BR logo">
-            </div>
-           
-        </header>
-    
-            
+<body>
+  <!--[if lt IE 7]>
+          <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+  <header>
+    <div>
+      <img class="br_logo" src="photos/BR_cornerM.png" alt="Fætter BR logo">
+      </div>       
+  </header>
     <div class="signupcontainer">
-        <h1>Tilmeld og vær med</h1>
-        <form action="wishlist.html">
-            <input class="Username" type="text" placeholder="Fornavn" id="textName">
-    </form>
+      <h1>Tilmeld og vær med</h1>
+      <form action="wishlist.html">
+        <input class="Username" type="text" placeholder="Fornavn" id="textName">
+      </form>
     <script>
       function passvalues() {
         var name = document.getElementById("textName").value;
@@ -50,27 +40,54 @@
         console.log(localStorage.getItem("textValue"));
       }
     </script>
-    <form> 
-            <input class="Email" type="text" placeholder="Email/telefon">
-            <input class="Alder" type="text" placeholder="Alder">
-
-            <input class="Adgangskode" id="Password" type="password" placeholder="Adgangskode" maxlength="15">
-            <input class="Adgangskode" id="Password_bekræft"type="password" placeholder="Bekræft adgangskode" maxlength="15">  
-            </form>
+      <form> 
+        <input class="Email" type="text" placeholder="Email/telefon">
+        <input class="Alder" type="text" placeholder="Alder">
+        <input class="Adgangskode" id="Password" type="password" placeholder="Adgangskode" maxlength="15">
+        <input class="Adgangskode" id="Password_bekræft"type="password" placeholder="Bekræft adgangskode" maxlength="15">  
+      </form>
     </div>
-        <form action="create_wishlist.html">
-
+      <form action="create_wishlist.html">
                 <!--https://www.w3schools.com/howto/howto_css_custom_checkbox.asp-->
-           <label class="pswcontainer">Vis adgangskode<input type="checkbox" id="password" onclick="twoInOne()"><span class="checkmark"></span></label>
+        <label class="pswcontainer">Vis adgangskode<input type="checkbox" id="password" onclick="twoInOne()"><span class="checkmark"></span></label>
+        <label class="pswcontainer">Husk mig<input type="checkbox" id="password"><span class="checkmark"></span></label>
+          <button class="klar_button" onclick="passvalues()">Jeg er klar</button>
+      </form>
+    </div> 
+    
+  <footer class=loginfooter>
+    <section class="navcontainer">
 
-           <label class="pswcontainer">Husk mig<input type="checkbox" id="password"><span class="checkmark"></span></label>
-           
-            <button class="klar_button" 
-            onclick="passvalues()">Jeg er klar</button>
-        </form>
-
-      
-<script>
+                <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+      <div class="homediv">
+          <form class="footerbuttons" action=""> 
+              <button><img src="photos/homepage_white.png" alt="Home icon" onclick=""> <br><p>Forside</p></button>
+          </form>
+      </div>
+    
+              <!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+      <div class="bookdiv">
+          <form action="catalog.html" class="footerbuttons">
+              <button><img src="photos/study_white.png" alt="open book icon"  class="bookbutton" onclick="setOnske()"><br><p>Ønskebogen</p></button>
+          </form> 
+      </div>
+    
+               <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+      <div class="listdiv"> 
+          <form class="footerbuttons" action="wishlist.html">
+              <button  ><img src="photos/list_white.png" alt="list icon"  onclick="setOnske()"><br><p>Min ønskeliste</p></button>
+          </form>  
+      </div>
+    
+               <!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+      <div class="logindiv">
+          <form class="footerbuttons" action="Register.html"> 
+              <button><img src="photos/login_thin_white.png" alt="Log in icon" onclick=""> <br><p>Log ind</p></button>
+          </form> 
+      </div>
+    </section>
+  </footer>     
+  <script>
 function myFunction() {
   var x = document.getElementById("Password");
   if (x.type === "password") {
@@ -91,15 +108,6 @@ function twoInOne(){
     myFunction()
     myFunction1()
 }
-
-</script>
-
-    </div> 
-<body>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-   
+  </script>
 </body>
 </html>
