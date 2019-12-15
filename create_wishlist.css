@@ -4,11 +4,11 @@
 
 body {
     margin: 0px;
-    font-color: black;
 }     
 
 .h1onskeliste {
     font-family: 'Amatic SC', cursive;
+    font-color: black;
     margin-left: 0;
    
     padding-left: 30px;
