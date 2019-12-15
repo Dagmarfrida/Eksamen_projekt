@@ -1,10 +1,11 @@
-@import url("header.css");
+
 
 /*TEXT FORM BOXES*/
 body {
     margin: 0px;
 }     
 
+@import url("header.css");
 .h1onskeliste {
     font-family: 'Amatic SC', cursive;
     margin-left: 0;
