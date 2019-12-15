@@ -6,14 +6,29 @@ body {
 
 .items {
   display: grid;
-  grid-template-columns: 45% 45%;
-  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  margin: auto auto;
+  margin-bottom: 70px;
 }
 
-.toyimage {
-  widht: auto; 
-    height: 30%;
+.toyitem {
+  width:100%;
+  height: 100%;
+  object-fit: scale-down;
 }
+
+
+#toyimage1 {
+  height: auto;
+}
+
+#toyimage2 {
+  height: auto;
+}
+
 
 
 
