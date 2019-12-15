@@ -10,6 +10,7 @@ body {
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 2px;
   grid-row-gap: 2px;
+  justify-items: center;
 
 }
 
@@ -17,7 +18,7 @@ body {
   width: 45%;
   height: 45%;
   padding: 20px;
-  text-align: center;
+  
  
 }
 
