@@ -1,5 +1,5 @@
-  
 @import url("header.css");
+
 /*TEXT FORM BOXES*/
 body {
     margin: 0px;
@@ -8,7 +8,7 @@ body {
 .h1onskeliste {
     font-family: 'Amatic SC', cursive;
     margin-left: 0;
-    background-color: #C20016;
+   
     padding-left: 30px;
     padding-bottom: 5px;
     padding-top: 5px;
