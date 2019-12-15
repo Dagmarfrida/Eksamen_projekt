@@ -47,42 +47,39 @@ html {
 
 }
 
-p {
+.popup_container p {
     text-align: center;
     margin-bottom: 10px;
 }
-  .btn { 
-    outline: none;
-    background: #c20016;
-    color: white;
-    width: 90%;
-    padding: 10px;
-    border: 2px solid #FDFE00;
-    border-radius: 30px;
-    margin-top: 10px;
-    font-size: 20px;
-    /*box-shadow: 2px 8px 0 #cccca4;*/
-  }
+.btn { 
+  outline: none;
+  background: #c20016;
+  color: white;
+  width: 90%;
+  padding: 10px;
+  border: 2px solid #FDFE00;
+  border-radius: 30px;
+  margin-top: 10px;
+  font-size: 20px;
+  /*box-shadow: 2px 8px 0 #cccca4;*/
+}
 
- 
-  .btn:hover {
-    box-shadow: 0.4rem 0.4rem 0 #cccca4;
-    transform: translate(-0.4rem, -0.4rem);
-  }
-  
-  .btn:active {
-    box-shadow: 0 0 0 black;
-    transform: translate(0, 0);
-  }
-  
-  .options {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: -webkit-center;
+.btn:hover {
+  box-shadow: 0.4rem 0.4rem 0 #cccca4;
+  transform: translate(-0.4rem, -0.4rem);
+}
 
+.btn:active {
+  box-shadow: 0 0 0 black;
+  transform: translate(0, 0);
+}
 
-  }
+.options {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: -webkit-center;
+}
   
