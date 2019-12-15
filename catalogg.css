@@ -9,7 +9,7 @@ body {
 }
 
 .items {
-  display: grid;
+  display: table;
   grid-template-columns: 45% 45%;
   grid-gap: 10px;
 }
