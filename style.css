@@ -366,7 +366,11 @@ label[data-group=r]:hover {
     font-size: 30px;
     color: rgb(83, 83, 83);
   }
-  
+  .loginbody p {
+    text-align: right;
+    margin-right: 40px;
+    text-decoration: underline;
+  }
   .logincontainer button {
     display: block;
     background-color: #C20016;
