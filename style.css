@@ -128,7 +128,9 @@ justify-content: space-between;
   font-size: 20px;
   color: rgb(83, 83, 83);
 }
-
+.signupcontainer h1 {
+  text-align: center;
+}
 .klar_button {
   display: block;
   background-color: #C20016;
@@ -435,6 +437,7 @@ label[data-group=r]:hover {
   font-family: 'Amatic SC', cursive;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 32px;
 }
     
 form input {
