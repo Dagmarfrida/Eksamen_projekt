@@ -85,7 +85,7 @@ h1 {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-
+    width: 250px;
   }
   
   /* Hide the browser's default checkbox */
@@ -156,3 +156,104 @@ h1 {
     color: #565f79;
   }
  
+
+
+
+
+
+  /*prufa*/
+
+  
+  .labels {
+    width: 300px;
+    height: 80px;
+  
+    text-align: center;
+    line-height: 80px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  input[name=r] {
+    display: none;
+  }
+  
+  label[data-group=r] {
+    display: inline-block;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    padding: 10px;
+    background:#C20016;
+    line-height: 22px;
+    border: 1px solid #001234;
+    -webkit-box-shadow: 0 3px #000;
+    box-shadow: 0 3px #000;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer;
+  }
+  
+  label[data-group=r]:hover {
+    text-shadow: 0 0 3px #fff;
+    background: rgb(194, 23, 43);
+  }
+  
+  .r1:nth-of-type(1) {
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .r4:nth-of-type(3) {
+    border-radius: 0 10px 10px 0;
+  }
+  
+  #r1:checked + .r1:nth-of-type(1) {
+    background: rgb(117, 1, 15);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    position: relative;
+    -webkit-transform: translate(0, 4px);
+    -ms-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+    cursor: default;
+    text-shadow: 0 0 10px #fff;
+  }
+  
+  #r2:checked + .r2:nth-of-type(2) {
+    background:rgb(117, 1, 15);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    position: relative;
+    -webkit-transform: translate(0, 4px);
+    -ms-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+    cursor: default;
+    text-shadow: 0 0 10px #fff;
+  }
+  
+  #r3:checked + .r3:nth-of-type(3) {
+    background: rgb(117, 1, 15);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    position: relative;
+    -webkit-transform: translate(0, 4px);
+    -ms-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+    cursor: default;
+    text-shadow: 0 0 10px #fff;
+  }
+  
+  #r4:checked + .r4:nth-of-type(3) {
+    background: rgb(117, 1, 15);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    position: relative;
+    -webkit-transform: translate(0, 4px);
+    -ms-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+    cursor: default;
+    text-shadow: 0 0 10px #fff;
+  }

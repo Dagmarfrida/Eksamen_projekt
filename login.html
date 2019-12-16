@@ -3,23 +3,22 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
+<!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 <html class="no-js">
 <!--<![endif]-->
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<body class="loginbody"> 
     <header>
         <div>
             <img class="br_logo" src="photos/BR_cornerM.png" alt="Fætter BR logo">
@@ -28,16 +27,51 @@
         </header>
     
             
-    <div>
+    <div class="logincontainer">
         <h1>Log ind</h1>
         <input class="username" type="text" placeholder="Navn">
         <input class="Adgangskode" type="text" placeholder="Adgangskode">
         
           
-        <form action="create_wishlist.html">
+        <form action="catalog.html">
             <button class="" onclick="setOnske()">Kom i gang</button>
         </form>
     </div> 
+
+
+
+<footer class=loginfooter>
+    <section class="navcontainer">
+       <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+
+    <div class="homediv">
+        <form class="footerbuttons" action="index.html"> 
+            <button><img src="photos/homepage_white.png" alt="Home icon"> <br><p>Forside</p></button>
+        </form>
+    </div>
+
+        <!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+    <div class="bookdiv">
+        <form action="catalog.html" class="footerbuttons">
+            <button><img src="photos/study_white.png" alt="open book icon"  class="bookbutton"><br><p>Ønskebogen</p></button>
+        </form> 
+    </div>
+
+        <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+    <div class="listdiv"> 
+        <form class="footerbuttons" action="wishlist.html">
+            <button  ><img src="photos/list_white.png" alt="list icon"><br><p>Mine ønsker</p></button>
+        </form>  
+    </div>
+
+        <!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+    <div class="logindiv">
+        <form class="footerbuttons" action="Register.html"> 
+            <button><img src="photos/login_brown.png" alt="Log in icon"> <br><p>Log ind</p></button>
+        </form> 
+    </div>
+    </section>
+</footer>
     <script src="" async defer></script>
 </body>
 

@@ -49,3 +49,9 @@
         }
 
     }
+
+    function getNameID() {
+        document.getElementById("textTwo").value = localStorage.getItem("textValue");
+        console.log(localStorage.getItem("textValue"));
+      }
+    window.onload = getNameID();

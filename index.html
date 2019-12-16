@@ -5,35 +5,74 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js">
 <!--<![endif]-->
-
+<!--[if lt IE 7]>
+   <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" async></script>
 </head>
 
 <body>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
     <header>
         <div>
             <img class="br_logo" src="photos/BR_cornerM.png" alt="Fætter BR logo">
+            </div>   
+        </header>
+       
+        <article class="velkommencontainer">
+            <h1>Velkommen til Fætter BR nye app!</h1><div class="imagediv"><img class="br_computer"src="photos/br_computer.jpg" alt="BR logo"></div>
+            <p>Du kan vinde en ønske fra din BR ønskeliste hvis du opretter en account, laver ønskeliste og sender til BR!  <br> Du kan også dele ønskelisten med familie og venner</p>
+            <p>Tryk på knappen og prøv vores fantastiske nye app og chance til at vinde!</p>
+        </article>
+            <form class="options" action="Register.html">
+            <button class="btn">Tryk</button>
+        </form>
         </div>
-    </header>
-    <nav class="navigation">
-        <ul>
-            <li><a href="autowishlist.html">Ønskeseddel</a></li>
-            <li><a href="catalog.html">Ønskebogen</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="Register.html">Register</a></li>
-        </ul>
-    </nav>
+        <section class="Allerede">
 
-    <script src="" async defer></script>
+<p>Har du allerede en account så kom i gang</p>
+<form action="login.html">
+<button class="klar_button">Log ind</button>
+</form>
+</section>
+    <footer class=forsidefooter>
+        <section class="navcontainer">
+           <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+
+        <div class="homediv">
+            <form class="footerbuttons" action=""> 
+                <button><img src="photos/homepage_brown.png" alt="Home icon"> <br><p>Forside</p></button>
+            </form>
+        </div>
+
+            <!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+        <div class="bookdiv">
+            <form action="catalog.html" class="footerbuttons">
+                <button><img src="photos/study_white.png" alt="open book icon"  class="bookbutton"><br><p>Ønskebogen</p></button>
+            </form> 
+        </div>
+
+            <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+        <div class="listdiv"> 
+            <form class="footerbuttons" action="wishlist.html">
+                <button  ><img src="photos/list_white.png" alt="list icon"><br><p>Mine ønsker</p></button>
+            </form>  
+        </div>
+
+            <!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+        <div class="logindiv">
+            <form class="footerbuttons" action="login.html"> 
+                <button><img src="photos/login_thin_white.png" alt="Log in icon" onclick=""> <br><p>Log ind</p></button>
+            </form> 
+        </div>
+        </section>
+    </footer>
 </body>
 
 </html>

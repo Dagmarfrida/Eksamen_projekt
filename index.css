@@ -1,4 +1,4 @@
-@import url("header.css");
+/*@import url("header.css");
 .navigation {
     font-family: 'Amatic SC', cursive;
 }
@@ -25,4 +25,14 @@
 
 .navigation li a:hover {
     background-color: #111111;
+}*/
+
+
+
+article {
+    margin: 20px;
+}
+article img {
+    -webkit-transform: scaleX(-1);ß
+    transform: scaleX(-1);
 }
