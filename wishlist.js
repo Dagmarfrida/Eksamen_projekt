@@ -38,11 +38,11 @@ function addToyToWishlist(iteminfo, imgsrc, imgalt) {
         wishcount++;
 
         var wishRowContent = `      
-    <element class="wishitem">
+    <section class="wishitem">
         <img class="toyimage" src="${imgsrc}" alt="${imgalt}">
         <p class="toyinfo"> "${iteminfo}"</p>
         <button class="removebtn" id="${wishcount}">Fjern</button>
-    </element>`
+    </section>`
         wishListRow.innerHTML = wishRowContent
         String(wishcount);
         window.localStorage.setItem('Wishcount', wishcount);
