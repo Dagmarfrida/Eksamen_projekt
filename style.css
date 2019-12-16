@@ -22,16 +22,88 @@ header {
   width: 190px;
   height: 190px;
 }  
-/*---------------REGISTER SIDE_____________________*/
-h1 {
-  text-align: center;
-  z-index: 100;
-  margin-top: 0px;
-  margin-bottom: 5px;
-  color: rgb(83, 83, 83);
-  font-size: 3opx;
-  font-family: 'Amatic SC', cursive;
+
+/*-------------------FORSIDE----------------*/
+
+.velkommencontainer {
+  
+  margin: 20px;
+  margin-bottom: 0px;
+  text-align: start;
+  height: 350px;
+  overflow: hidden;
 }
+.velkommencontainer h1 {
+  font-size: 32px;
+}
+ .velkommencontainer p {
+   font-size: 18px;
+   font-family: 'Open Sans', sans-serif;
+
+ }
+.br_computer {
+  width: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  /*-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);*/
+}
+.imagediv {
+  
+  float: right;
+  margin-top: 18px;
+}
+.Allerede {
+text-align: left;
+display: flex;
+flex-flow: row;
+margin-left: 20px;
+height: 100px;
+justify-content: space-between;
+}
+.Allerede p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+.Allerede button {
+  width: 70px;
+  font-size: 11px;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  float: right;
+  margin-right: 20px;
+  
+  border: 2px solid #FDFE00;
+}
+ /* C2A BUTTON*/
+ 
+ 
+ .button {
+   background: #3498db;
+   width: 180px;
+   padding: 4px 0;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   border-radius: 3px;
+  }
+   
+   .button:after {
+     content: "";
+     display: block;
+     position: absolute;
+     width: 100%;
+     height: 10%;
+     border-radius: 50%;
+     background-color: darken(#f1c40f, 20%);
+     opacity: 0.4;
+     bottom: -30px;
+   }
+ 
+
+/*---------------REGISTER SIDE_____________________*/
+
 
 .signupcontainer input {
   display: flex;
@@ -69,10 +141,99 @@ h1 {
   text-transform: uppercase;
   font-size: 30px;
   padding: 9px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 135px;
 }
 
+/*PIGE/DRENG*/
+.radio {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+.labels {
+  width: 300px;
+  text-align: center;
+  margin-left: 30px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.fa, .fas {
+    font-size: 25px;
+  }
+
+input[name=r] {
+  display: none;
+}
+
+label[data-group=r] {
+  display: inline-block;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  padding: 10px;
+  background:#C20016;
+  line-height: 22px;
+  border: 1px solid #001234;
+  -webkit-box-shadow: 0 3px #000;
+  box-shadow: 0 3px #000;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+label[data-group=r]:hover {
+  text-shadow: 0 0 3px #fff;
+  background: rgb(194, 23, 43);
+}
+
+.r1:nth-of-type(1) {
+  border-radius: 10px 0 0 10px;
+}
+
+.r4:nth-of-type(3) {
+  border-radius: 0 10px 10px 0;
+}
+
+#r1:checked + .r1:nth-of-type(1) {
+  background: #3FC932;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  position: relative;
+  -webkit-transform: translate(0, 4px);
+  -ms-transform: translate(0, 4px);
+  transform: translate(0, 4px);
+  cursor: default;
+  text-shadow: 0 0 10px #fff;
+}
+
+#r2:checked + .r2:nth-of-type(2) {
+  background:#3FC932;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  position: relative;
+  -webkit-transform: translate(0, 4px);
+  -ms-transform: translate(0, 4px);
+  transform: translate(0, 4px);
+  cursor: default;
+  text-shadow: 0 0 10px #fff;
+}
+
+#r4:checked + .r4:nth-of-type(3) {
+  background: #3FC932;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  position: relative;
+  -webkit-transform: translate(0, 4px);
+  -ms-transform: translate(0, 4px);
+  transform: translate(0, 4px);
+  cursor: default;
+  text-shadow: 0 0 10px #fff;
+}
       /*JEG ER KLAR TAKKE*/
 
 #dynamicCheck {
@@ -82,19 +243,24 @@ h1 {
 
 }
               /*SHOW PASSWORD CHECKBOX*/
+              
+.checkboxcontainer {
+  height: 100px;
+}
 .pswcontainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
   cursor: pointer;
   font-size: 18px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-
+  width: 180px;
+  height: 35px;
+  margin-top: 10px;
+  margin-right: 3px;
 }
 
 .pswcontainer input {
@@ -106,7 +272,7 @@ h1 {
 }
 
 .checkmark {
-  position: absolute;
+  position: inherit;
   top: 0;
   right: 30px;
   height: 25px;
@@ -118,7 +284,11 @@ h1 {
 .pswcontainer input:checked ~ .checkmark {
   background-color: #C20016;
 }
-
+.pswcontainer p {
+  font-size: 18px;
+  margin: 5px;
+  margin-left: 15px;
+}
 .checkmark:after {
   content: "";
   position: absolute;
@@ -161,7 +331,63 @@ h1 {
 ::-webkit-input-placeholder {
   color: #565f79;
 }
+/*---------------- LOGIN SIDE---------------*/
+      
+.loginbody h1 {
+    text-align: center;
+    z-index: 100;
+    margin-top: 50px;
+    color: rgb(83, 83, 83);
+    font-size: 44px;
+    font-family: 'Amatic SC', cursive;
+}
+  .loginbody input {
+    display: flex;
+    flex-flow: column;
+    z-index: 0;
+    padding: 6px;
+    padding-left: 15px;
+    line-height: 17px;
+    border: solid 3px #C20016;
+    box-shadow: 0 0 5px #ccc inset;
+    outline: none;
+    width: 80%;
+    transition: all .2s ease-in-out;
+    border-radius: 30px;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Amatic SC', cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(83, 83, 83);
+  }
+  
+  .logincontainer button {
+    display: block;
+    background-color: #C20016;
+    color: white;
+    border-radius: 30px;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Amatic SC', cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 9px;
+    margin-top: 40px;
+  }
+  /* TILFØJ TAKKE*/
 
+  #dynamicCheck {
+      display: block;
+      float: right;
+    border: none;
+
+  }
+  
 /*---------------- CATALOG SIDE ---------------*/
 /*@import url("header.css");
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');*/
@@ -224,7 +450,8 @@ form input {
   display: flex;
   justify-content: space-around;
   background-color: #C20016;
-  padding: 10px;   
+  padding: 10px;  
+  margin-bottom: 150px; 
 }
 
 .wishlist_buttons button{
@@ -279,7 +506,7 @@ form input {
 
 #popupbody {
   color:black;
-  font-family: 'PT Sans Caption', sans-serif;
+font-family: 'Open Sans', sans-serif;
   background-color: #c20016;
   font-size: 20px;
   margin: 10px;
@@ -338,6 +565,7 @@ border: 2px solid #FDFE00;
 border-radius: 30px;
 margin-top: 10px;
 font-size: 20px;
+text-transform: uppercase;
 /*box-shadow: 2px 8px 0 #cccca4;*/
 }
 
@@ -405,17 +633,22 @@ footer form img {
   padding: 10px;
 }
 
-/*.homediv p {
+ .forsidefooter .homediv p{
   color: #410404;
-  font-size: 12px;
-  font-family: 'Open Sans', sans-serif;
-  margin-top: 1px;
-  text-transform: uppercase;
-}*/
-
+  
+}
+.katalogfooter .bookdiv p{
+  color: #410404;
+}
+.onskelistefooter .listdiv p {
+  color: #410404;
+}
+.loginfooter .logindiv p {
+  color: #410404;
+}
 .navcontainer p {
   color: #ffffff;
-  font-size: 10px;
+  font-size: 11px;
   font-family: 'Open Sans', sans-serif;
   margin-top: 1px;
   text-transform: uppercase;

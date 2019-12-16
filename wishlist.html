@@ -9,7 +9,7 @@
 <html class="no-js">
 <!--<![endif]-->
 
-<head>
+<head> 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
@@ -19,25 +19,20 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="header.css">
     <script type="text/javascript" src="createwishlistpage.js" async></script>
-
+    
 </head>
 
 
-<body class="wishlistbody" onload="getName()">
+<body class="wishlistbody">
     <header>
         <div>
             <img class="br_logo" src="photos/BR_cornerM.png" alt="Fætter BR logo">
         </div>
     </header>
     <form>
-        <h1 class="h1wishlist"> <input class="h1wishlist" type="text" id="textTwo"></input>s ønskeliste </h1>
+        <h1 class="h1wishlist"><input class="h1wishlist" type="text" id="textTwo">s ønskeliste</h1>
     </form>
-    <script>
-        function getName() {
-            document.getElementById("textTwo").value = localStorage.getItem("textValue");
-            console.log(localStorage.getItem("textValue"));
-        }
-    </script>
+   
 
     <!--<input id="catchOnske1" class="oenske" type="text">
     <input id="catchOnske2" class="oenske" type="text">
@@ -60,13 +55,13 @@
             <button><img src="photos/envelope_white.png" alt="email icon"  class="emailbutton"></button>
         </form>
     </div>
-    <a class="edit" href="create_wishlist.html">Edit/Delete</a>
+    
     <footer class=onskelistefooter>
         <section class="navcontainer">
             <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
 
             <div class="homediv">
-                <form class="footerbuttons" action="">
+                <form class="footerbuttons" action="index.html">
                     <button><img src="photos/homepage_white.png" alt="Home icon" onclick=""> <br><p>Forside</p></button>
                 </form>
             </div>
@@ -74,59 +69,23 @@
             <!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
             <div class="bookdiv">
                 <form action="catalog.html" class="footerbuttons">
-                    <button><img src="photos/study_white.png" alt="open book icon"  class="bookbutton" onclick="setOnske()"><br><p>Ønskebogen</p></button>
+                    <button><img src="photos/study_white.png" alt="open book icon"  class="bookbutton"><br><p>Ønskebogen</p></button>
                 </form>
             </div>
 
             <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
             <div class="listdiv">
                 <form class="footerbuttons" action="wishlist.html">
-                    <button><img src="photos/list_white.png" alt="list icon"  onclick="setOnske()"><br><p>Min ønskeliste</p></button>
+                    <button><img src="photos/list_brown.png" alt="list icon"><br><p>Mine ønsker</p></button>
                 </form>
             </div>
 
             <!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
             <div class="logindiv">
-                <form class="footerbuttons" action="Register.html">
-                    <button><img src="photos/login_thin_white.png" alt="Log in icon" onclick=""> <br><p>Log ind</p></button>
+                <form class="footerbuttons" action="login.html">
+                    <button><img src="photos/login_thin_white.png" alt="Log in icon" onclick=""><br><p>Log ind</p></button>
                 </form>
             </div>
-        </section>
-        <footer>
-            <section class="navcontainer">
-                <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
-
-                <div class="homediv">
-                    <form class="footerbuttons" action="">
-                        <button><img src="photos/homepage_white.png" alt="Home icon" onclick=""> <br><p>Forside</p></button>
-                    </form>
-                </div>
-
-                <!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
-                <div class="bookdiv">
-                    <form action="catalog.html" class="footerbuttons">
-                        <button><img src="photos/study_white.png" alt="open book icon"  class="bookbutton" onclick="setOnske()"><br><p>Ønskebogen</p></button>
-                    </form>
-                </div>
-
-                <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
-                <div class="listdiv">
-                    <form class="footerbuttons" action="wishlist.html">
-                        <button><img src="photos/list_brown.png" alt="list icon"  onclick="setOnske()"><br><p>Min ønskeliste</p></button>
-                    </form>
-                </div>
-
-                <!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
-                <div class="logindiv">
-                    <form class="footerbuttons" action="Register.html">
-                        <button><img src="photos/login_thin_white.png" alt="Log in icon" onclick=""> <br><p>Log ind</p></button>
-                    </form>
-                </div>
-            </section>
-        </footer>
+        </section>       
 </body>
-
-<script src="createwishlistpage.js"></script>
-<script src="wishlist.js"></script>
-
 </html>
