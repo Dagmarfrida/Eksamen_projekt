@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body {
     margin: 0px;
+    margin-bottom: 50px;
 }
 
 h2 {
@@ -35,6 +36,4 @@ h2 {
     object-fit: scale-down;
 }
 
-.toyinfo {
-    margin-bottom: 10px;
-}
+
