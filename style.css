@@ -462,7 +462,8 @@ label[data-group=r]:hover {
   font-family: 'Amatic SC', cursive;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 32px;
+  font-size: 35px;
+  text-align: center;
 }
     
 form input {
