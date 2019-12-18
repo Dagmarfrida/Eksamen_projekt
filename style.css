@@ -430,6 +430,25 @@ label[data-group=r]:hover {
     object-fit: scale-down;
 }
 
+.onskeknap {
+    display: block;
+    background-color: #C20016;
+    color: white;
+    border-radius: 30px;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Amatic SC', cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 9px;
+    margin-top: 40px;
+}
+
+.placeholder {
+
+    margin-bottom: 140px;
+}
 
 
 /*----------------WISHLIST SIDE---------------*/
