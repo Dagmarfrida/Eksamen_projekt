@@ -369,9 +369,10 @@ label[data-group=r]:hover {
   }
   .loginbody p {
     text-align: right;
-    margin-right: 40px;
+    margin-right: 5px;
     text-decoration: underline;
     margin-bottom: 200px;
+    text-decoration: none;
   }
   .logincontainer button {
     display: block;
