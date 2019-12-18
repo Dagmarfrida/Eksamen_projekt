@@ -60,6 +60,7 @@ flex-flow: row;
 margin-left: 20px;
 height: 100px;
 justify-content: space-between;
+margin-bottom: 200px;
 }
 .Allerede p {
   font-family: 'Open Sans', sans-serif;
@@ -370,6 +371,7 @@ label[data-group=r]:hover {
     text-align: right;
     margin-right: 40px;
     text-decoration: underline;
+    margin-bottom: 200px;
   }
   .logincontainer button {
     display: block;
