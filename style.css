@@ -524,17 +524,16 @@ form input {
 }
 
 .removebtn {
-  display: block;
-    background-color: #C20016;
-    color: white;
-    border-radius: 30px;
-    width: 30%;
+display: block;
+    background-color: darkgrey;
+    color: black;
+    border-radius: 0;
+    width: 25%;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Amatic SC', cursive;
     text-transform: uppercase;
-    font-size: 30px;
-    padding: 9px;
+    font-size: 25px;
     margin-top: 40px;
 }
 
