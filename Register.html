@@ -21,20 +21,17 @@
     <link href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur'" rel="stylesheet">
     <script type="text/javascript" src="script.js"></script>
 </head>
-
 <body>
     <header>
         <div>
             <img class="br_logo" src="photos/BR_cornerM.png" alt="Fætter BR logo">
         </div>
     </header>
-
     <div class="signupcontainer">
         <h1>Tilmeld og vær med</h1>
         <form action="wishlist.html">
             <input class="Username" type="text" placeholder="Fornavn" id="textName">
         </form>
-
         <form>
             <input class="Email" type="text" placeholder="Email/telefon">
             <input class="Alder" type="text" placeholder="Alder">
@@ -44,7 +41,6 @@
     </div>
     <form action="catalog.html">
         <!--https://codepen.io/kaypooma/pen/FJiex-->
-
         <div class="radio">
             <div class="labels">
                 <input type="radio" name="r" id="r1">
@@ -64,28 +60,24 @@
     </div>
     <footer class=loginfooter>
         <section class="navcontainer">
-
             <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
             <div class="homediv">
                 <form class="footerbuttons" action="index.html">
                     <button><img src="photos/homepage_white.png" alt="Home icon"> <br><p>Forside</p></button>
                 </form>
             </div>
-
             <!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
             <div class="bookdiv">
                 <form action="catalog.html" class="footerbuttons">
                     <button><img src="photos/study_white.png" alt="open book icon"  class="bookbutton" onclick="setOnske()"><br><p>Ønskebogen</p></button>
                 </form>
             </div>
-
             <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
             <div class="listdiv">
                 <form class="footerbuttons" action="wishlist.html">
                     <button><img src="photos/list_white.png" alt="list icon"  onclick="setOnske()"><br><p>Min ønskeliste</p></button>
                 </form>
             </div>
-
             <!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
             <div class="registerdiv">
                 <form class="footerbuttons" action="login.html">
@@ -94,38 +86,36 @@
             </div>
         </section>
     </footer>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("Password");
-            if (x.type === "password") {
-                x.type = "text";
-            } else {
-                x.type = "password";
+        <script>
+            function myFunction() {
+                var x = document.getElementById("Password");
+                if (x.type === "password") {
+                    x.type = "text";
+                } else {
+                    x.type = "password";
+                }
             }
-        }
 
-        function myFunction1() {
-            var x = document.getElementById("Password_bekræft");
-            if (x.type === "password") {
-                x.type = "text";
-            } else {
-                x.type = "password";
+            function myFunction1() {
+                var x = document.getElementById("Password_bekræft");
+                if (x.type === "password") {
+                    x.type = "text";
+                } else {
+                    x.type = "password";
+                }
             }
-        }
 
-        function twoInOne() {
-            myFunction()
-            myFunction1()
-        }
+            function twoInOne() {
+                myFunction()
+                myFunction1()
+            }
 
-        function passvalues() {
-            var name = document.getElementById("textName").value;
-            localStorage.setItem("textValue", name);
-            console.log(localStorage.getItem("textValue"));
-        }
-    </script>
-
-
+            function passvalues() {
+                var name = document.getElementById("textName").value;
+                localStorage.setItem("textValue", name);
+                console.log(localStorage.getItem("textValue"));
+            }
+        </script>
 </body>
 
 </html>

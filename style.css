@@ -6,7 +6,7 @@ body {
 }
 
 
-/*----------------HEADER--------------*/
+/*------------------HEADER----------------*/
 
 
 
@@ -39,20 +39,20 @@ header {
  .velkommencontainer p {
    font-size: 18px;
    font-family: 'Open Sans', sans-serif;
-
  }
+
 .br_computer {
   width: 110px;
   margin-left: auto;
   margin-right: auto;
-  /*-webkit-transform: scaleX(-1);
-  transform: scaleX(-1);*/
 }
+
 .imagediv {
-  
+
   float: right;
   margin-top: 18px;
 }
+
 .Allerede {
 text-align: left;
 display: flex;
@@ -62,11 +62,13 @@ height: 100px;
 justify-content: flex-end;
 margin-bottom: 90px;
 }
+
 .Allerede p {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   margin-right: 20px;
 }
+
 .Allerede button {
   width: 70px;
   font-size: 11px;
@@ -74,11 +76,11 @@ margin-bottom: 90px;
   font-family: 'Open Sans', sans-serif;
   float: right;
   margin-right: 20px;
-  
   border: 2px solid #FDFE00;
 }
+
+
  /* C2A BUTTON*/
- 
  
  .button {
    background: #3498db;
@@ -130,9 +132,11 @@ margin-bottom: 90px;
   font-size: 20px;
   color: rgb(83, 83, 83);
 }
+
 .signupcontainer h1 {
   text-align: center;
 }
+
 .klar_button {
   display: block;
   background-color: #C20016;
@@ -157,6 +161,7 @@ margin-bottom: 90px;
   align-items: flex-end;
   margin-top: 10px;
 }
+
 .labels {
   width: 300px;
   text-align: center;
@@ -166,7 +171,7 @@ margin-bottom: 90px;
 }
 
 .fa, .fas {
-    font-size: 25px;
+  font-size: 25px;
   }
 
 input[name=r] {
@@ -238,19 +243,13 @@ label[data-group=r]:hover {
   cursor: default;
   text-shadow: 0 0 10px #fff;
 }
-      /*JEG ER KLAR TAKKE*/
 
-#dynamicCheck {
-    display: block;
-    float: right;
-  border: none;
-
-}
-              /*SHOW PASSWORD CHECKBOX*/
+  /*SHOW PASSWORD CHECKBOX*/
               
 .checkboxcontainer {
   height: 100px;
 }
+
 .pswcontainer {
   display: flex;
   justify-content: space-between;
@@ -335,117 +334,105 @@ label[data-group=r]:hover {
 ::-webkit-input-placeholder {
   color: #565f79;
 }
+
+
 /*---------------- LOGIN SIDE---------------*/
       
 .loginbody h1 {
-    text-align: center;
-    z-index: 100;
-    margin-top: 50px;
-    color: rgb(83, 83, 83);
-    font-size: 44px;
-    font-family: 'Amatic SC', cursive;
+  text-align: center;
+  z-index: 100;
+  margin-top: 50px;
+  color: rgb(83, 83, 83);
+  font-size: 44px;
+  font-family: 'Amatic SC', cursive;
 }
-  .loginbody input {
-    display: flex;
-    flex-flow: column;
-    z-index: 0;
-    padding: 6px;
-    padding-left: 15px;
-    line-height: 17px;
-    border: solid 3px #C20016;
-    box-shadow: 0 0 5px #ccc inset;
-    outline: none;
-    width: 80%;
-    transition: all .2s ease-in-out;
-    border-radius: 30px;
-    text-align: left;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Amatic SC', cursive;
-    text-transform: uppercase;
-    font-size: 30px;
-    color: rgb(83, 83, 83);
+.loginbody input {
+  display: flex;
+  flex-flow: column;
+  z-index: 0;
+  padding: 6px;
+  padding-left: 15px;
+  line-height: 17px;
+  border: solid 3px #C20016;
+  box-shadow: 0 0 5px #ccc inset;
+  outline: none;
+  width: 80%;
+  transition: all .2s ease-in-out;
+  border-radius: 30px;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Amatic SC', cursive;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: rgb(83, 83, 83);
   }
-  .loggeafbutton {
-    width: 80px;
-    font-size: 11px;
-    border-radius: 10px;
-    font-family: 'Open Sans', sans-serif;
-    float: right;
-    margin-right: 40px;
-    background-color: #C20016;
-    border: 2px solid #FDFE00;
-    display: block;
-    color: #ffffff;
-    text-transform: uppercase;
-    padding: 9px;
-    margin-top: 10px;
-    margin-bottom: 135px;
-    /*text-align: right;
-    margin-right: 40px;
-    text-decoration: underline;
-    margin-bottom: 200px;*/
+.loggeafbutton {
+  width: 80px;
+  font-size: 11px;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  float: right;
+  margin-right: 40px;
+  background-color: #C20016;
+  border: 2px solid #FDFE00;
+  display: block;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 9px;
+  margin-top: 10px;
+  margin-bottom: 135px;
   }
-  .logincontainer button {
-    display: block;
-    background-color: #007519;
-    border: solid 2px #C20016;
-    color: white;
-    border-radius: 30px;
-    width: 87%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Amatic SC', cursive;
-    text-transform: uppercase;
-    font-size: 30px;
-    padding: 9px;
-    margin-top: 40px;
-  }
-  /* TILFØJ TAKKE*/
 
-  #dynamicCheck {
-      display: block;
-      float: right;
-    border: none;
-
-  }
+.logincontainer button {
+  display: block;
+  background-color: #007519;
+  border: solid 2px #C20016;
+  color: white;
+  border-radius: 30px;
+  width: 87%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Amatic SC', cursive;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 9px;
+  margin-top: 40px;
+}
   
 /*---------------- CATALOG SIDE ---------------*/
-/*@import url("header.css");
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');*/
-
 
 .catalogbody h2 {
-    font-family: 'Amatic SC', cursive;
-    padding: 20px;
-    text-align: center;
-    font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
 }
 
 .Items {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
-    justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  justify-items: center;
 }
 
 .toyitem {
-    width: 80%;
-    height: 80%;
-    padding: 20px;
-    font-family: 'Amatic SC', cursive;
-    text-align: center;
-    font-size: 30px;
+  width: 80%;
+  height: 80%;
+  padding: 20px;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 30px;
 }
 
 .toyimage {
-    width: 100%;
-    height: 100%;
-    object-fit: scale-down;
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
 }
 
 
@@ -495,21 +482,13 @@ form input {
   font-size: 22px;
   line-height: 32px;
   border: none;
- /* border: solid 3px #C20016;
-  box-shadow: 0 0 5px #ccc inset;
-  outline: none;
-  width: 80%;
-  transition: all .2s ease-in-out;
-  border-radius: 3px;*/
   text-align: left;
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Open Sans', sans-serif;
- /* font-family: 'Amatic SC', cursive;
-  text-transform: uppercase;
-  font-size: 30px;*/
 }
+
 .printbutton, .emailbutton{
   width: 30px;
   height: 30px;
@@ -524,18 +503,18 @@ form input {
 }
 
 .removebtn {
-display: block;
-    background-color: darkgrey;
-    color: black;
-    border-radius: 0;
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Amatic SC', cursive;
-    text-transform: uppercase;
-    font-size: 25px;
-    margin-top: 20px;
-    margin-bottom: 20px; 
+  display: block;
+  background-color: darkgrey;
+  color: black;
+  border-radius: 0;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Amatic SC', cursive;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px; 
 }
 
 .toyinfo {
@@ -551,11 +530,10 @@ display: block;
 
 #popupbody {
   color:black;
-font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: #c20016;
   font-size: 20px;
   margin: 10px;
-
 }
 
 .exit_btn {
@@ -592,47 +570,46 @@ font-family: 'Open Sans', sans-serif;
   margin-bottom: 1.6rem;
   margin-top: 20px;
   text-align: justify;
- /* margin-left: 10px;
-  margin-right: 10px;*/
 }
 
 .popup_container p {
   text-align: center;
   margin-bottom: 10px;
 }
+
 .trykbtn { 
-outline: none;
-background: #007519;
-color: white;
-width: 90px;
-height: 90px;
-padding: 10px;
-border: 2px solid #FDFE00;
-border-radius: 50%;
-margin-top: 10px;
-font-size: 20px;
-text-transform: uppercase;
-/*box-shadow: 2px 8px 0 #cccca4;*/
+  outline: none;
+  background: #007519;
+  color: white;
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+  border: 2px solid #FDFE00;
+  border-radius: 50%;
+  margin-top: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .trykbtn:hover {
-box-shadow: 0.4rem 0.4rem 0 #cccca4;
-transform: translate(-0.4rem, -0.4rem);
+  box-shadow: 0.4rem 0.4rem 0 #cccca4;
+  transform: translate(-0.4rem, -0.4rem);
 }
 
 .trykbtn:active {
-box-shadow: 0 0 0 black;
-transform: translate(0, 0);
+  box-shadow: 0 0 0 black;
+  transform: translate(0, 0);
 }
 
 .options {
-display: flex;
-flex-direction: column;
-width: 100%;
-margin-left: auto;
-margin-right: auto;
-text-align: -webkit-center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: -webkit-center;
 }
+
 .options .btn {
   outline: none;
   background: #C20016;
@@ -645,12 +622,12 @@ text-align: -webkit-center;
   margin-top: 10px;
   font-size: 20px;
   text-transform: uppercase;
-  }
+}
 
 /*------------FOOTER------------------*/
 
 
-/*.loginfooter, .onskelistefooter, .katalogfooter*/ footer {
+footer {
   width: 100%;
   height: 120px;
   background: #C20016;
@@ -669,13 +646,11 @@ text-align: -webkit-center;
   height: 120px;
 }
 
-
 footer form {
   margin-top: 25px;
   width: 100px;
   height: 120px;
   text-align: center;
-
 }
 
 footer button {
@@ -685,7 +660,6 @@ footer button {
   margin: 0 auto;
 }
 
-
 footer form img {
   width: 30px;
   height: 30px;
@@ -694,18 +668,20 @@ footer form img {
 }
 
  .forsidefooter .homediv p{
-  color: #410404;
-  
+  color: #410404; 
 }
 .katalogfooter .bookdiv p{
   color: #410404;
 }
+
 .onskelistefooter .listdiv p {
   color: #410404;
 }
+
 .loginfooter .logindiv p {
   color: #410404;
 }
+
 .navcontainer p {
   color: #ffffff;
   font-size: 11px;
@@ -713,20 +689,4 @@ footer form img {
   margin-top: 1px;
   text-transform: uppercase;
 }
-   /*hover effects på footer icons https://www.fabriziovanmarciano.com/button-styles/
-
-
-.footerbuttons{
-  
-  text-decoration: none;
-  display: inline-block;
-  transition: all 0.4s ease 0s;
-  }
-.footerbuttons:hover{
-  background: #bddd09;
-  border-color: #ffffff !important;
-  transition: all 0.4s ease 0s;
-
-  }*/
-
 
