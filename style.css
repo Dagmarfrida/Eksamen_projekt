@@ -523,6 +523,21 @@ form input {
   margin-bottom: 130px;
 }
 
+.removebtn {
+  display: block;
+    background-color: #C20016;
+    color: white;
+    border-radius: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Amatic SC', cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 9px;
+    margin-top: 40px;
+}
+
 
 
 
