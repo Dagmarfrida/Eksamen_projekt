@@ -59,12 +59,13 @@ display: flex;
 flex-flow: row;
 margin-left: 20px;
 height: 100px;
-justify-content: space-between;
-margin-bottom: 200px;
+justify-content: flex-end;
+margin-bottom: 90px;
 }
 .Allerede p {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
+  margin-right: 20px;
 }
 .Allerede button {
   width: 70px;
@@ -367,15 +368,30 @@ label[data-group=r]:hover {
     font-size: 30px;
     color: rgb(83, 83, 83);
   }
-  .loginbody p {
-    text-align: right;
+  .loggeafbutton {
+    width: 80px;
+    font-size: 11px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    float: right;
+    margin-right: 40px;
+    background-color: #C20016;
+    border: 2px solid #FDFE00;
+    display: block;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 9px;
+    margin-top: 10px;
+    margin-bottom: 135px;
+    /*text-align: right;
     margin-right: 40px;
     text-decoration: underline;
-    margin-bottom: 200px;
+    margin-bottom: 200px;*/
   }
   .logincontainer button {
     display: block;
-    background-color: #C20016;
+    background-color: #007519;
+    border: solid 2px #C20016;
     color: white;
     border-radius: 30px;
     width: 87%;
@@ -566,12 +582,13 @@ font-family: 'Open Sans', sans-serif;
 }
 .btn { 
 outline: none;
-background: #c20016;
+background: #007519;
 color: white;
-width: 90%;
+width: 90px;
+height: 90px;
 padding: 10px;
 border: 2px solid #FDFE00;
-border-radius: 30px;
+border-radius: 50%;
 margin-top: 10px;
 font-size: 20px;
 text-transform: uppercase;
@@ -634,6 +651,7 @@ footer button {
   height: 60px;
   margin: 0 auto;
 }
+
 
 footer form img {
   width: 30px;
