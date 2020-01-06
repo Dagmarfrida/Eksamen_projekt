@@ -418,15 +418,16 @@ label[data-group=r]:hover {
   grid-column-gap: 2px;
   grid-row-gap: 2px;
   justify-items: center;
+  margin-bottom: 100px;
 }
 
 .toyitem {
   width: 80%;
   height: 80%;
   padding: 20px;
+  padding-bottom: 0px;
   font-family: 'Amatic SC', cursive;
   text-align: center;
-  font-size: 30px;
 }
 
 .toyimage {
@@ -435,6 +436,22 @@ label[data-group=r]:hover {
   object-fit: scale-down;
 }
 
+.catalogbutton {
+  margin-bottom: 200px;
+  display: block;
+  background-color: #c20016;
+  border: solid 2px #FDFE00;
+  color: white;
+  border-radius: 30px;
+  width: 87%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Amatic SC', cursive;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 9px;
+  margin-top: 40px;
+}
 
 
 /*----------------WISHLIST SIDE---------------*/
@@ -444,9 +461,10 @@ label[data-group=r]:hover {
   background-color: #C20016;
   color: white;
   font-family: 'Amatic SC', cursive;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-size: 32px;
+  margin-bottom: 0px;
 }
     
 form input {
@@ -464,7 +482,23 @@ form input {
   background-color: #C20016;
   padding: 10px;  
   margin-bottom: 150px; 
+  font-size: 20px;
+  border-top: solid 2px #FDFE00;
 }
+.stickyheader {
+  position: sticky;
+  top: -5px; 
+  box-shadow: 0px 12px 16px 6px rgba(189,189,189,1);
+}
+
+
+
+
+
+
+  
+}
+
 
 .wishlist_buttons button{
   background-color: #C20016;
@@ -520,6 +554,7 @@ form input {
 .toyinfo {
   text-align: center;
   font-size: 30px; 
+  margin-top: 5px;
 }
 
 

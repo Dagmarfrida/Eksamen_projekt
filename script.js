@@ -2,18 +2,16 @@
 
 /*Den javascript er lavet i samarbejde med Johann Hafsteinsson*/
 
-/*Hent input elements fr HTML DOM*/
+
 var textOne = document.getElementById("textOne");
 var textTwo = document.getElementById("textTwo");
-/*Hent value af textOne textbox input*/
 var textOneValue = textOne.value;
- 
 var textTwoValue = textOneValue;
-/*Assign the value of textOne textbox til textTwo textbox*/
 textTwo.value = textTwoValue;
 
 
 /* FORSIDE KNAP */
+
 var $button = document.querySelector('.button');
 $button.addEventListener('click', function() {
   var duration = 0.3,
