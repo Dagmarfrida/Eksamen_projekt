@@ -80,7 +80,7 @@ margin-bottom: 90px;
 }
 
 
- /* C2A BUTTON*/
+ /* C2A BUTTON
  
  .button {
    background: #3498db;
@@ -103,7 +103,7 @@ margin-bottom: 90px;
      background-color: darken(#f1c40f, 20%);
      opacity: 0.4;
      bottom: -30px;
-   }
+   }*/
  
 
 /*---------------REGISTER SIDE_____________________*/
@@ -490,15 +490,6 @@ form input {
   top: -5px; 
   box-shadow: 0px 12px 16px 6px rgba(189,189,189,1);
 }
-
-
-
-
-
-
-  
-}
-
 
 .wishlist_buttons button{
   background-color: #C20016;
